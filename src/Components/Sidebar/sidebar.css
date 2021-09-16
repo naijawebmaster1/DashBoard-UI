@@ -1,0 +1,35 @@
+.sidebar {
+    flex: 1;
+    height: 100vh;
+    background: #FEFEFF 0% 0% no-repeat padding-box;
+    position: sticky;
+}
+
+.sidebar {
+    position: sticky;
+    z-index: 99;
+}
+
+.sidebar img {
+    margin: 10px 0px;
+    padding-right: 10px;
+}
+
+.sidebar .app-logo {
+    text-align: center;
+    margin: 20px 40px;
+}
+
+.sidebar nav {
+    list-style: none;
+}
+
+.sidebar li {
+    letter-spacing: -0.36px;
+    color: #514C5D;
+    opacity: 0.8;
+}
+
+ul {
+    list-style-type: none;
+}

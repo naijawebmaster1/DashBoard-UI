@@ -1,0 +1,154 @@
+.flex {
+  display: flex;
+}
+
+button {
+  border-radius: 4px;
+  opacity: 1;
+  border: 0px
+}
+
+a {
+  text-decoration: none;
+}
+
+textarea:focus, input:focus {
+  outline: none;
+}
+
+.fixed {
+  position: fixed;
+  width: auto;
+}
+
+
+@media screen and (max-width: 792px) {
+  body {}
+  table {
+    display: block;
+    overflow: scroll;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+
+@media screen and (max-width: 600px) {
+  body {
+    /* display: none */
+    font-size: 16px!important;
+  }
+  .sidebar, .my-navbar {
+    display: none;
+  }
+  .navbar-showcase {
+    display: flex;
+    overflow: scroll;
+  }
+  .navbar-form h1, .navbar-form {
+    width: auto;
+    display: inline;
+  }
+  .my-cards button {
+    float: right;
+    padding: 3px;
+    font-size: 10px
+  }
+  .my-cards span {}
+  .area-cards {
+    width: auto!important;
+    border: 1px solid #EEEEEE;
+    border-radius: 10px;
+    opacity: 1;
+    padding: 12px 8px;
+    margin: 7px;
+    display: flex;
+    margin-bottom: 5px;
+  }
+  .navbar-toggler {
+    background-color: #FBB30B;
+  }
+  .navbar-showcase-main {
+    padding: 10px 30px;
+  }
+  .process-form-one .right {
+    padding: 20px;
+    margin: 20px 0px;
+    margin-bottom: 50px;
+  }
+  .process-form-one .left {
+    padding: 20px;
+  }
+  table {
+    display: block;
+    overflow: scroll;
+  }
+  .navbar-items button {
+    padding: 7px 11px;
+  }
+  .area-cards i {
+    float: right!important;
+  }
+  .area-cards span {
+    float: right;
+    justify-content: right
+  }
+
+  .area {
+
+    padding: 0px 00px;
+}
+
+.navbar-border {
+
+  padding: 0px 00px;
+}
+
+td {
+  min-width: 150px;
+}
+
+a{
+  color:#FBB30B
+}
+
+.area-cards span {
+
+  font-size: 16px;
+  margin-top: 0px!important;
+}
+
+.area-cards img {
+  width: 20px;
+}
+
+.area-cards i {
+
+  font-size: 14px;
+
+}
+.my-navbar-showcase-main {
+  padding: 0px 30px 30px 30px!important;
+}
+
+.tag-list span {
+
+  margin-right: 0px;
+}
+
+.area-cards i {
+  margin-top: 4px;
+
+}
+
+.navbar {
+
+  height: 60px!important;
+
+}
+
+.navbar-toggler {
+
+  line-height: 1;
+
+}
+}

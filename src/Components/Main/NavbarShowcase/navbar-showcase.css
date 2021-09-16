@@ -1,0 +1,72 @@
+.navbar-showcase-main {
+    padding: 10px 0px;
+    width: 100%;
+    background: #FBFBFF 0% 0% no-repeat padding-box;
+    border-top: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
+    min-height: 100vh;
+}
+
+.navbar-showcase {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-border {
+    border-top: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
+    /* border-bottom: 1px solid #333; */
+    border-bottom: 1px solid #ECECEC!important;
+    padding:  0px 60px;
+}
+
+.pt-100 {
+    margin-top: 100px;
+}
+
+.navbar-showcase-main .navbar-form h1 {
+    text-align: left;
+    letter-spacing: 0px;
+    color: #2C263D;
+    opacity: 0.8;
+    font-weight: 700;
+}
+
+.navbar-showcase button {
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FBB30B;
+    padding: 7px 20px;
+    text-align: left;
+    letter-spacing: 0px;
+    background: #FEEFCE 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+}
+
+.my-cards span {
+    text-align: left;
+    letter-spacing: 0px;
+    color: #514C5D;
+}
+
+.my-cards .active {
+    text-align: left;
+    letter-spacing: 0px;
+    color: #585461;
+}
+
+.navbar-showcase-main>div:nth-child(3)>div:nth-child(1)>button {
+    background: #FBB30B 0% 0% no-repeat padding-box;
+    color: #fff;
+}
+
+.navbar-items button {
+    background: #2F417E 0% 0% no-repeat padding-box;
+    border: 1px solid #F6F6F6;
+    border-radius: 8px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    padding: 8px 15px;
+}

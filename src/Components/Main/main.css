@@ -1,0 +1,7 @@
+.main {
+  flex: 5;
+  height: 100vh;
+  border: 1px solid #ECECEC;
+  background: #FBFBFF 0% 0% no-repeat padding-box;
+  overflow: scroll
+}
